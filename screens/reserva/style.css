@@ -4,7 +4,7 @@
     --main-color:#d3ad7f;
     --black:#000000;
     --bg:#000000;
-    --border:.1rem solid rgba(238, 232, 232, 0.3);
+    --border:.1rem solid rgba(255,255,255,.3);
 }
 
 *{
@@ -297,7 +297,7 @@ section{
 }
 
 .menu .box-container .box:hover{
-    background:var(--main-color);
+    background:#fff;
 }
 
 .menu .box-container .box:hover > *{
