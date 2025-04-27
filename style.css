@@ -45,6 +45,10 @@ section{
     padding:2rem 7%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .heading{
     text-align: center;
     color:#fff;
@@ -204,32 +208,66 @@ section{
     text-align: center;
 }
 
-.home{
+.home {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../images/home-img.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+    justify-content: center;
+    padding: 0;
+    background: var(--black);
+  }
 
-.home .content{
-    max-width: 60rem;
-}
+  .home-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .home .content {
+    flex: 1;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    background-color: var(--black);
+    height: 100%;
+    text-align: left;
+  }
 
-.home .content h3{
-    font-size: 6rem;
+  .home .content h3 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
     text-transform: uppercase;
-    color:#fff;
-}
-
-.home .content p{
+    color: #fff;
+  }
+  
+  .home .content p {
     font-size: 2rem;
     font-weight: lighter;
-    line-height: 1.8;
-    padding:1rem 0;
-    color:#eee;
-}
+    margin-bottom: 2rem;
+    color: #ccc;
+  }
+  
+  .home .content .btn {
+    font-size: 2rem;
+  }
+  
+  .home .carousel {
+    flex: 1;
+    height: 80%;
+  }
+  
+  .home .carousel-inner,
+  .home .carousel-item,
+  .home .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
 
 .about .row{
     display: flex;
