@@ -17,6 +17,11 @@
     transition: .2s linear;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -58,17 +63,20 @@ section{
     text-transform: uppercase;
 }
 
-.btn{
+.btn {
     margin-top: 1rem;
     display: inline-block;
-    padding:.9rem 3rem;
+    padding: .9rem 3rem;
     font-size: 1.7rem;
-    color:#fff;
+    color: #fff;
     background: var(--main-color);
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.btn:hover{
+.btn:hover {
+    background: #fff;
+    color: var(--black);
     letter-spacing: .2rem;
 }
 
