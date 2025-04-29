@@ -691,3 +691,41 @@ a {
     }
 
 }
+
+@media (max-width: 768px) {
+    .home-container {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .home .content {
+      padding: 3rem 2rem;
+      align-items: center;
+      text-align: center;
+      height: auto;
+    }
+  
+    .home .content h3 {
+      font-size: 3rem;
+    }
+  
+    .home .content p {
+      font-size: 1.6rem;
+    }
+  
+    .home .content .btn {
+      font-size: 1.6rem;
+    }
+  
+    .home .carousel {
+      width: 100%;
+      height: auto;
+    }
+  
+    .home .carousel-inner,
+    .home .carousel-item,
+    .home .carousel-item img {
+      height: auto;
+      object-fit: cover;
+    }
+  }
